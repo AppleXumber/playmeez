@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'rockwellregular';
+    src: url('../fonts/rock.woff2') format('woff2'),
+        url('../fonts/rock.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rockwellbold';
+    src: url('../fonts/rockb.woff2') format('woff2'),
+        url('../fonts/rockb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'rockwellbold';
+}
+
+body {
+    background-color: #282932;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    background-color: #1e1f20;
+    margin: 5% 0% 0% 5%;
+    float: left;
+    padding-right: 10px;
+
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.header {
+    font-size: 35px;
+    text-align: center;
+}
+
+.header input {
+    width: 15%;
+    border-radius: 20px;
+    height: 2vw;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.header button {
+    height: 2vw;
+    padding: 0% 2% 0% 2%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #15cb15;
+    margin-top: 2rem;
+    border: none;
+}
+
+#search {
+    padding-right: 10px;
+}
+
+article h3 {
+    background-color: #0d5e0d;
+    color: white;
+
+}
+
+#art_album {
+    background-color: #1e1f20;
+    margin: 1rem auto;
+}
+
+#art_artista {
+    margin: 1rem auto;
+}
+
+#art_musica {
+    margin: 1rem auto;
+}
+
+#art_artista p,
+#art_album p {
+    margin-top: 40px;
+}
+
+img {
+    width: 90%;
+    height: 5vw;
+    margin-left: 13px;
+    margin-top: 4px;
+}
+
+.sep h3 {
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#lista {
+    display: flex;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.home-edit {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.home-edit a {
+    color: #15cb15;
+    text-decoration: none;
+}
+
+.home-edit a:hover {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: darkgreen;
+    cursor: pointer;
+}

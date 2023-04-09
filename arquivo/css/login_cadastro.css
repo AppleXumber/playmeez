@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'rockwellregular';
+    src: url('../fonts/rock.woff2') format('woff2'),
+        url('../fonts/rock.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rockwellbold';
+    src: url('../fonts/rockb.woff2') format('woff2'),
+        url('../fonts/rockb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+body {
+    background-color: #282932;
+}
+
+input {
+    width: 50%;
+}
+
+label {
+    color: white;
+    font-size: 150%;
+}
+
+img {
+    width: 50%;
+}
+
+h1 {
+    font-size: 400%;
+    margin-top: -1%;
+    text-align: center;
+    color: white;
+}
+
+.form-cad_login {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1f20;
+    width: 35%;
+    align-items: center;
+    margin: 6rem auto;
+}
+
+.forms-input {
+    width: 50%;
+    margin-top: 3%;
+    height: 2vw;
+    margin-bottom: 4%;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#cadastro,
+#envia {
+    margin: 0 auto;
+    height: 3vw;
+    padding: 0% 20% 0% 20%;
+    border-radius: 20px;
+
+    cursor: pointer;
+    background-color: #15cb15;
+    margin-top: 2rem;
+}
+
+#cadastro:hover,
+#envia:hover {
+    background-color: #406a00;
+}
+
+#cadastro h2,
+#envia h2 {
+    color: white;
+}
+
+#form-cad_login_edit {
+    height: 35vw;
+}
+
+a[href="login.php"],
+a[href="cadastro.php"] {
+    text-decoration: none;
+    margin: 2rem 0;
+    color: #15cb15;
+    font-size: 1.25rem;
+}
+
+a[href="login.php"]:hover,
+a[href="cadastro.php"]:hover {
+    color: #406a00;
+}
+
+button {
+    border: none;
+    background-color: #15cb15;
+}
+
+.home-edit {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+
+.home-edit a {
+    color: #15cb15;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+.home-edit a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+#form-cad_login_edit {
+    height: 35vw;
+}
+
+#home_edit_edit {
+    margin: -7% 0;
+}
+
+#edit_user {
+    margin: 8vw auto;
+}

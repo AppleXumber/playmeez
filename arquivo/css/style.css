@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'rockwellregular';
+    src: url('../fonts/rock.woff2') format('woff2'),
+        url('../fonts/rock.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rockwellbold';
+    src: url('../fonts/rockb.woff2') format('woff2'),
+        url('../fonts/rockb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#home {
+    margin-top: 9%;
+
+}
+
+::-webkit-input-placeholder {
+    padding-left: 5px;
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'rockwellbold';
+}
+
+body {
+    background-color: #282932;
+}
+
+main {
+    background-color: #1e1f20;
+    margin: 7% 35% 0% 35%;
+    height: 35vw;
+}
+
+img {
+    width: 50%;
+    margin: 3% 25% 0% 25%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+h2 {
+    color: white;
+}
+
+#header {
+    margin-top: 3%;
+}
+
+
+#header input {
+    width: 50%;
+    cursor: pointer;
+    height: 2vw;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 2%;
+    padding: 5px;
+}
+
+#header p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 0%;
+
+}
+
+#header p select {
+    width: 50%;
+    cursor: pointer;
+    height: 2vw;
+    margin-bottom: 4%;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+#main {
+    margin-top: 3%;
+}
+
+#main input {
+    display: none;
+}
+
+#main p select {
+    width: 50%;
+    cursor: pointer;
+    height: 2vw;
+    margin-bottom: 4%;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+#main p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 0%;
+}
+
+#main #sel {
+    background-color: #15cb15;
+    border-radius: 20px;
+    padding: 0% 1% 1% 1%;
+
+
+}
+
+#main #sel:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+#footer button {
+    height: 3vw;
+    padding: 0% 20% 0% 20%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #15cb15;
+}
+
+#footer button:hover {
+
+    background-color: green;
+
+}
+
+.home-edit {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+
+.home-edit a {
+    color: #15cb15;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.home-edit a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}

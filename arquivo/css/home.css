@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'rockwellregular';
+    src: url('../fonts/rock.woff2') format('woff2'),
+        url('../fonts/rock.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rockwellbold';
+    src: url('../fonts/rockb.woff2') format('woff2'),
+        url('../fonts/rockb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font-family: 'rockwellbold';
+}
+
+body {
+    display: flex;
+}
+
+aside {
+    background-color: white;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+h1 {
+    position: absolute;
+    font-size: 75px;
+    left: 50px;
+    top: 15px;
+
+}
+
+main {
+    background: no-repeat center;
+    background-color: gray;
+    background-image: url(../imagens/fundo.png);
+    background-size: cover;
+    width: 85%;
+}
+
+main nav p {
+    font-size: 70px;
+    display: inline-flex;
+    font-weight: bold;
+    margin: 0 10px;
+    color: white;
+
+}
+
+main a {
+    text-decoration: none;
+    color: White;
+    font-family: 'rockwellbold';
+}
+
+a {
+    font-family: 'rockwellbold';
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.listagem section {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.listagem section.listagem_artistas {
+    overflow-y: scroll;
+}
+
+.lista-Artistas {
+    display: flex;
+    margin: 0.5rem 0;
+    flex-direction: column;
+    margin-left: 3rem;
+    font-size: 1.25rem;
+}
+
+.nome_album a {
+    font-size: 1.10rem;
+    color: gray;
+    text-decoration: none;
+}
+
+#fav {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.nome_album a:hover {
+    color: rgb(75, 75, 75);
+}
+
+.lista-Albuns {
+    display: flex;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    flex-direction: column;
+}
+
+.img-Album img {
+    border-radius: 60px;
+}
+
+.div-nome_musica {
+    display: flex;
+    margin: 2% 0% 2% 10%;
+    font-size: 23px;
+    width: 65%;
+}
+
+.div-nome_musica p {
+    padding-left: 5px;
+}
+
+.lista-Albuns_header {
+    display: flex;
+    align-items: center;
+    background-color: #a446cf2e;
+    height: 8vw;
+    backdrop-filter: blur(20px);
+}
+
+#favoritos .lista-Albuns_header {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#favoritos .nome-Album {
+    margin: 0 auto;
+}
+
+.lista-Albuns_header img {
+    margin: 0% 5% 0% 10%;
+    border-radius: 60px;
+}
+
+.img-Album {
+    margin-right: 2rem;
+    margin-left: 5rem;
+
+}
+
+.caixa_musica {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 5px;
+}
+
+.caixa_musica:hover {
+    background-color: #ffffff82;
+    cursor: pointer;
+
+}
+
+#album_body {
+    backdrop-filter: blur(1px);
+    background-color: #ebe9e994;
+}
+
+
+/* Um dropdown quebrado aí, claro claro, tudo culpa do Wayron, so faz back-end, e quer meter a mão no meu front. Calvo desgraçado */
+
+.div_user {
+    cursor: pointer;
+}
+
+.log_ou li {
+    position: relative;
+    float: right;
+    border-right: 1px solid #c0c0c0;
+}
+
+.log_out li {
+    display: flex;
+    flex-direction: column;
+}
+
+.log_out li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    align-self: center;
+}
+
+#sair {
+    color: #ff0000;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown a:hover {
+    background: #333;
+    color: #fff;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.dropdown-content {
+    background-color: #fff;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: fixed;
+    top: 10%;
+}
+
+.dropdown li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+}
+
+/* Fim do Dropdown */
+
+audio::-webkit-media-controls-timeline {
+    display: none;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: transparent;
+}
+
+.audio-musica {
+    display: none;
+}
+
+.player-musica {
+    margin-top: 10px;
+    width: 30%;
+    display: inline-flex;
+}
+
+.player-musica span {
+    padding-right: 80px;
+    padding-top: 6px;
+}
+
+.player-musica i {
+    font-size: 25px;
+}
+
+.ion-ios-play-outline,
+.ion-ios-pause {
+    color: black;
+}
+
+.ion-ios-heart-outline,
+.ion-ios-heart {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+button {
+    background: none;
+}
