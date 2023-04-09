@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'rockwellregular';
+    src: url('../fonts/rock.woff2') format('woff2'),
+        url('../fonts/rock.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rockwellbold';
+    src: url('../fonts/rockb.woff2') format('woff2'),
+        url('../fonts/rockb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+}
+body {
+    background-color: #282932;
+}
+input {
+    width: 50%;
+}
+label {
+    color: white;
+    font-size: 150%;
+}
+img {
+    width: 50%;
+    margin-left: 25%;
+}
+h1 {
+    font-size: 400%;
+    margin-top: -1%;
+    text-align: center;
+    color: white;
+}
+h2{
+    color: white;
+}
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1f20;
+    width: 35%;
+    height: 42vw;
+    align-items: center;
+    margin: 3rem auto;
+}
+.inputs{
+    width: 50%;
+    margin-top: 3%;
+    height: 2vw;
+    margin-bottom: 4%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+#comentario{
+    border-radius: 20px;
+    padding: 10px;
+}
+#envia{
+    margin: 0 auto;
+    height: 3vw;
+    padding: 0% 20% 0% 20%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #15cb15;
+    margin-top: 2rem;
+}
