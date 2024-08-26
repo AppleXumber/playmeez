@@ -44,3 +44,6 @@ Playmeez é uma aplicação web desenvolvida em PHP para gerenciar músicas, ál
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+
+Feito com ❤️ por [AppleXumber](https://github.com/AppleXumber).
